@@ -1,4 +1,5 @@
 var React = require('react');
+var Navigation = require('Navigation');
 
 
 var Main = (props) => {
@@ -6,6 +7,7 @@ var Main = (props) => {
     <div>
         <div>
             <div>
+              <Navigation />
               <p>Main.jsx Rendered</p>
             </div>
         </div>
