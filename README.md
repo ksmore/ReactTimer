@@ -1,2 +1,2 @@
-# ReactBoilerplate
-A boiler plate for react app.
+# ReactTimer
+A simple timer app made with react.
