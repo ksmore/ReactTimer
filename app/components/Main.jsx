@@ -1,5 +1,7 @@
 var React = require('react');
 var Navigation = require('Navigation');
+var Countdown = require('Countdown');
+var Timer = require('Timer');
 
 
 var Main = (props) => {
@@ -8,6 +10,8 @@ var Main = (props) => {
         <div>
             <div>
               <Navigation/>
+              <p>Main.jsx Rendered</p>
+              {props.children}
             </div>
         </div>
     </div>
